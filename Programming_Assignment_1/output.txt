@@ -1,0 +1,2 @@
+MoveToRoom2->Clean->MoveToRoom1
+Clean->MoveToRoom2->Clean
