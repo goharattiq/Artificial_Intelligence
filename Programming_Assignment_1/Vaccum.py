@@ -50,7 +50,7 @@ def goalTest(state,final):
 
 
 def Graph_Search(problem):
-    initial,final = problem.split('  ') 
+    initial,final = problem.split('\t') 
     initial_Node = Node(state_description.index(initial),-1,0,None)
     final_state = state_description.index(final)
 
